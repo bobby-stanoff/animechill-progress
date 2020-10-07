@@ -1,0 +1,78 @@
+body {
+  background-color: #ffc7c7;
+}
+h2 {
+  font-size: 100%;
+  padding-left: 5px;
+  margin-top: 10%;
+  color: rgb(32, 32, 32);
+}
+.progress {
+  background: rgba(17, 17, 17, 0.418);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 1%;
+  display: flex;
+  height: 5%;
+  width: 80%;
+}
+
+.progress-value {
+  animation: load 5s normal infinite;
+
+  border-radius: 100px;
+  background: #fff;
+  height: 70%;
+  width: 50%;
+}
+
+@keyframes load {
+  0% {
+    width: 50%;
+  }
+  50% {
+    width: 78%;
+  }
+}
+
+.img-logo {
+  margin: 30% 0 5% 0;
+  display: block;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #f33535 0%,
+    #ff6e7f 51%,
+    #f33535 100%
+  );
+}
+.button-facebook {
+  text-align: center;
+}
+.btn-grad {
+  margin: 10px;
+  padding: 4% 8%;
+  text-align: center;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.img-container {
+  padding: 10%;
+}
+.img-container img {
+  width: 100%;
+}
