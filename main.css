@@ -52,6 +52,10 @@ h2 {
 .button-facebook {
   text-align: center;
 }
+a:hover {
+  text-decoration: none;
+  font-style: none;
+}
 .btn-grad {
   margin: 10px;
   padding: 4% 8%;
